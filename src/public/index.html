@@ -48,7 +48,7 @@
            || navigator.mozGetUserMedia || navigator.msgGetUserMedia);
 
            if(navigator.getUserMedia){
-               navigator.getUserMedia({audio:true},loadCam,errorCamara)
+               navigator.getUserMedia({video:true},loadCam,errorCamara)
            }
            var intervalo = setInterval(()=>{
                 verVideo(video,context);
